@@ -6,19 +6,39 @@ public class PracticeProblem {
 	}
 
 	//Write your functions here
-	public static int evenOrOdd(int even, int odd){
-		Scanner input = new Scanner (System.in);
-		int num = input.nextInt();
-		if (num % 2 == 0) {
-			System.out.println("even");
+	public static String EvenOrOdd(int even){
+		if (even % 2 == 0) {
+			return "Even";
 		}
 		else {
-			System.out.println("Odd");
+			return "Odd";
 		}
-		return num;
 
 	public static String teacherOrStudent(String word){
-		if
+		if (word == "Kalisz"){
+			return "Teacher";
+		}
+		else{
+			return "Student";
+		}
+	}
+
+	public static int fartherFromZero(int num){
+		if (num>0){
+			int num1 = num+5;
+			return num;
+		}
+
+		else if (num< 0){
+			int num2 = num - 5;
+			return num;
+		}
+
+		else
+			int num = 0;
+			return num;
+		}
+
 
 
 	}
