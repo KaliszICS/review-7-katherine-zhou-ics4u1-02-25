@@ -6,7 +6,7 @@ public class PracticeProblem {
 	}
 
 	//Write your functions here
-	public static String EvenOrOdd(int even){
+	public static String evenOrOdd(int even){
 		if (even % 2 == 0) {
 			return "Even";
 		}
@@ -41,7 +41,7 @@ public class PracticeProblem {
 
 	}
 
-	public static int isFive(int five){
+	public static String isFive(int five){
 		if (five == 5){
 			return "The number is Five";
 		}
@@ -53,7 +53,7 @@ public class PracticeProblem {
 
 	}
 
-	public static double positiveOrNegative(double pos){
+	public static String positiveOrNegative(double pos){
 		if (pos>0){
 			return "Positive";
 		}
@@ -63,7 +63,7 @@ public class PracticeProblem {
 		}
 	}
 
-	public static int highOrLow(int big){
+	public static String highOrLow(int big){
 		if (big > 100){
 			return "High";
 		}
