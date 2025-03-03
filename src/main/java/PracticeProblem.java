@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class PracticeProblem {
 
 	public static void main(String args[]) {
@@ -6,7 +5,7 @@ public class PracticeProblem {
 	}
 
 	//Write your functions here
-	public static String EvenOrOdd(int even){
+	public static String evenOrOdd(int even){
 		if (even % 2 == 0) {
 			return "Even";
 		}
@@ -55,12 +54,12 @@ public class PracticeProblem {
 		
 	public static String positiveOrNegative(double neg){
 		if (neg > 0){
-			return "Positve";
+			return "Positive";
 		}
 	
 		else {
 			return "Negative";
-			}
+		}
 		}
 
 	public static String highOrLow(int big){
